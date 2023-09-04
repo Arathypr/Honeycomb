@@ -1,0 +1,1232 @@
+@font-face {
+  font-family: "Betatron";
+  src: url("/public/font/BETATRON-REGULAR.OTF") format("truetype");
+}
+.rectangle-slider {
+  position: relative;
+  background: linear-gradient(112.72deg, #2e335a, #1c1b33);
+  width: 100%;
+  height: 150vh;
+
+  /* overflow-y: scroll;
+  scroll-snap-type: y mandatory; */
+}
+/* .image-container {
+  scroll-snap-align: start;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  overflow: hidden;
+} */
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+.we {
+  color: #fff;
+}
+.we-lead {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  font-family: betatron;
+  text-align: center;
+  -webkit-text-stroke: 1px #fff;
+  color: #fff;
+}
+.stroke {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  padding-bottom: 1.5rem;
+}
+/* .we-lead-organizations-container {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  font-family: betatron;
+  text-align: center;
+  -webkit-text-stroke: 1px #fff;
+  color: #fff;
+} */
+/* .web {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  padding-bottom: 1.5rem;
+} */
+.main-container {
+  overflow-y: scroll;
+  /* scroll-snap-type: y mandatory; */
+  height: 120vh;
+}
+.image1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  overflow: hidden;
+}
+.image2 {
+  
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  overflow: hidden;
+}
+
+.projects {
+  position: relative;
+  font-size: 60px;
+  letter-spacing: 0.02em;
+  font-family: Orbitron;
+  text-align: center;
+  left: 700px;
+  top: 550px;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  transform: rotate(-90deg);
+}
+
+.b {
+  position: relative;
+  font-size: 82px;
+  letter-spacing: 0.02em;
+  font-family: Orbitron;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  top: 1240px;
+}
+.imagebg1 {
+  position: relative;
+  top: 100px;
+  height: 600px;
+  left: 370px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.iza-apparels {
+  position: relative;
+  font-size: 64px;
+  letter-spacing: 0.02em;
+  font-family: betatron;
+  top: -280px;
+  left: -3%;
+  color: #ffffff;
+  text-align: center;
+}
+.case-study {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.case-study-child {
+  position: relative;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  top: -280px;
+  left: 440px;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+  font-family: Orbitron;
+}
+
+.image1 {
+  position: relative;
+
+  &:hover .live-preview-button {
+    visibility: visible;
+  }
+}
+
+.image2 {
+  position: relative;
+
+  &:hover .live-preview-button1 {
+    visibility: visible;
+  }
+}
+
+.live-preview-button {
+  position: absolute;
+  bottom: 380px;
+  left: 48%;
+  transform: translateX(-50%);
+  width: 11%; /* Set width and height to make the button circular */
+  height: 16.5%;
+  background-color: rgb(46, 51, 90, 0.8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  visibility: hidden;
+  transition: visibility 0.3s ease;
+  border-radius: 50%; /* Make the button circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove padding to center the content */
+  font-size: 15px;
+  line-height: 1;
+  font-family: orbitron;
+}
+
+.live-preview-button1 {
+  position: absolute;
+  bottom: 380px;
+  left: 47%;
+  transform: translateX(-50%);
+  width: 11%; /* Set width and height to make the button circular */
+  height: 16.5%;
+  background-color: rgb(46, 51, 90, 0.8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  visibility: hidden;
+  transition: visibility 0.3s ease;
+  border-radius: 50%; /* Make the button circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove padding to center the content */
+  font-size: 15px;
+  line-height: 1;
+  font-family: orbitron;
+}
+.image1:hover .imagebg1,
+.iza-apparels,
+.case-study-child {
+  opacity: 0.3; /* Decrease image opacity on button hover */
+}
+.image2:hover .imagebg2,
+.gelie-shrsta,
+.case-study-child1 {
+  opacity: 0.3; /* Decrease image opacity on button hover */
+}
+
+.imagebg2 {
+  position: relative;
+  overflow: hidden;
+  top: 200px;
+  height: 380px;
+  transform: rotate(27.88deg);
+  left: 400px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.gelie-shrsta {
+  position: relative;
+  font-size: 64px;
+  letter-spacing: 0.02em;
+  font-family: betatron;
+  top: -50px;
+  left: -5%;
+  color: #ffffff;
+  text-align: center;
+}
+.case-study-child1 {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  top: -50px;
+  left: 430px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: Orbitron;
+}
+
+/*phone portrait*/
+@media screen and (min-width: 320px) and (max-width: 350px) and (orientation: portrait) {
+  .we-lead-organizations-container {
+    font-size: 23px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -125px !important;
+    left: 105px !important;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -70px;
+    left: 100px;
+  }
+  .projects {
+    font-size: 15px !important;
+    left: 148px !important;
+    top: 150px;
+  }
+  .b {
+    font-size: 15px !important;
+    top: 320px;
+  }
+  .case-study-child {
+    font-size: 7px !important;
+    padding: 0px;
+    margin: 0px;
+    top: -100px !important;
+    left: 55px !important;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -40px;
+    left: 65px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: 10px !important;
+    height: 230px !important;
+    left: 25px !important;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 50px;
+    height: 150px !important;
+    transform: rotate(27.88deg);
+    left: 45px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 140vh !important;
+  }
+}
+@media only screen and (max-width: 360px) and (orientation: portrait) {
+  .we-lead-organizations-container {
+    font-size: 23px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -170px;
+    left: 120px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -70px;
+    left: 100px;
+  }
+  .projects {
+    font-size: 20px;
+    left: 160px;
+    top: 150px;
+  }
+  .b {
+    font-size: 20px;
+    top: 320px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -140px;
+    left: 55px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -40px;
+    left: 65px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -10px;
+    height: 250px;
+    left: 30px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 50px;
+    height: 170px;
+    transform: rotate(27.88deg);
+    left: 45px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 100vh;
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 393px) and (orientation: portrait) {
+  .we-lead-organizations-container {
+    font-size: 23px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -170px;
+    left: 120px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -70px;
+    left: 100px;
+  }
+  .projects {
+    font-size: 22px;
+    left: 160px;
+    top: 175px;
+  }
+  .b {
+    font-size: 22px;
+    top: 330px;
+  }
+  .case-study-child {
+    font-size: 8px;
+    width: 9px;
+    padding: 0px;
+    margin: 0px;
+    top: -145px;
+    left: 65px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -40px;
+    left: 65px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -10px;
+    height: 250px;
+    left: 33px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 50px;
+    height: 170px;
+    transform: rotate(27.88deg);
+    left: 45px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 120vh;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 450px) and (orientation: portrait) {
+  .we-lead-organizations-container {
+    font-size: 23px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -170px;
+    left: 120px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -70px;
+    left: 100px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 170px;
+    top: 150px;
+  }
+  .b {
+    font-size: 25px;
+    top: 350px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -145px;
+    left: 65px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -40px;
+    left: 65px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -10px;
+    height: 265px;
+    left: 33px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 50px;
+    height: 170px;
+    transform: rotate(27.88deg);
+    left: 45px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 100vh;
+  }
+}
+/*phone landscape*/
+@media screen and (min-width: 731px) and (max-width: 781px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -250px;
+    left: 320px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -210px;
+    left: 320px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 330px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 630px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -220px;
+    left: 250px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -170px;
+    left: 270px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: -50px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 750px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -250px;
+    left: 320px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -210px;
+    left: 320px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 330px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 630px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -220px;
+    left: 250px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -170px;
+    left: 270px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: -50px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 815px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -250px;
+    left: 320px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -210px;
+    left: 320px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 370px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 630px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -220px;
+    left: 250px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -170px;
+    left: 270px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: -50px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh !important;
+  }
+}
+@media only screen and (min-width: 880px) and (max-width: 885px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -250px;
+    left: 320px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -120px !important;
+    left: 430px !important;
+  }
+  .projects {
+    font-size: 25px;
+    left: 370px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 600px !important;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -220px;
+    left: 250px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -80px !important;
+    left: 380px !important;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 40px !important;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 300px !important;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 400vh !important;
+  }
+}
+@media only screen and (min-width: 833px) and (max-width: 930px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 20px;
+    top: -280px;
+    left: 380px;
+  }
+  .gelie-shrsta {
+    font-size: 20px;
+    top: -150px;
+    left: 420px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 400px;
+    top: 220px;
+  }
+  .b {
+    font-size: 25px;
+    top: 650px;
+  }
+  .case-study-child {
+    font-size: 11px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -240px;
+    left: 320px;
+  }
+  .case-study-child1 {
+    font-size: 11px;
+    width: 10%;
+    top: -100px;
+    left: 380px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 420px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 10px;
+    height: 260px;
+    transform: rotate(27.88deg);
+    left: 300px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 859px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 20px;
+    top: -240px;
+    left: 335px;
+  }
+  .gelie-shrsta {
+    font-size: 20px;
+    top: 80px;
+    left: 320px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 370px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 630px;
+  }
+  .case-study-child {
+    font-size: 11px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -200px;
+    left: 270px;
+  }
+  .case-study-child1 {
+    font-size: 11px;
+    width: 10%;
+    top: 120px;
+    left: 270px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 300px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: -250px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+/*iphone Landscape*/
+@media screen and (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 20px;
+    top: -240px;
+    left: 220px;
+  }
+  .gelie-shrsta {
+    font-size: 20px;
+    top: -150px;
+    left: 230px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 255px;
+    top: 220px !important;
+  }
+  .b {
+    font-size: 25px;
+    top: 500px;
+  }
+  .case-study-child {
+    font-size: 11px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -200px;
+    left: 140px;
+  }
+  .case-study-child1 {
+    font-size: 11px;
+    width: 10%;
+    top: -110px;
+    left: 180px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 10.5%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    top: 0px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 100px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 350vh;
+  }
+}
+/*tab*/
+@media screen and (min-width: 768px) and (max-width: 835px) and (orientation: portrait) {
+  .we-lead-organizations-container {
+    font-size: 55px;
+  }
+  .iza-apparels {
+    position: relative;
+    font-size: 30px;
+    top: -400px;
+    left: 250px;
+  }
+  .gelie-shrsta {
+    position: relative;
+    font-size: 30px;
+    top: -290px;
+    left: 250px;
+  }
+  .projects {
+    font-size: 35px;
+    left: 350px;
+    top: 250px;
+  }
+  .b {
+    font-size: 40px;
+    top: 600px;
+  }
+  .case-study-child {
+    font-size: 15px;
+    top: -350px;
+    left: 130px;
+  }
+  .case-study-child1 {
+    font-size: 15px;
+    top: -230px;
+    left: 160px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -100px;
+    height: 520px;
+    left: 70px;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    top: -100px;
+    height: 300px;
+    transform: rotate(27.88deg);
+    left: 150px;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 120vh;
+  }
+}
+/*tab landscape*/
+@media screen and (width: 1024px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 65px;
+  }
+  .imagebg1 {
+    left: 80px;
+    top: -150px;
+    height: 700px;
+  }
+  .imagebg2 {
+    left: 150px;
+    height: 450px;
+    top: -150px;
+  }
+  .b {
+    font-size: 60px;
+    top: 800px;
+  }
+  .projects {
+    font-size: 60px;
+    left: 450px;
+    top: 310px;
+  }
+  .iza-apparels {
+    position: relative;
+    top: -580px;
+    left: 350px;
+    font-size: 40px;
+  }
+  .case-study-child {
+    top: -500px;
+    left: 210px;
+    font-family: orbitron;
+  }
+  .gelie-shrsta {
+    position: relative;
+    top: -450px;
+    left: 290px;
+  }
+  .case-study-child1 {
+    top: -350px;
+    left: 250px;
+    font-family: orbitron;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1180px) and (orientation: landscape) {
+  .imagebg1 {
+    left: 110px;
+    top: -150px;
+    height: 800px;
+  }
+  .imagebg2 {
+    left: 160px;
+    height: 550px;
+    top: -150px;
+  }
+  .b {
+    font-size: 60px;
+    top: 900px;
+  }
+  .projects {
+    font-size: 60px;
+    left: 520px;
+    top: 310px;
+  }
+  .iza-apparels {
+    position: relative;
+    top: -600px;
+    left: 350px;
+  }
+  .case-study-child {
+    position: relative;
+    top: -500px;
+    left: 280px;
+    font-size: 20px;
+    font-family: orbitron;
+  }
+  .gelie-shrsta {
+    position: relative;
+    top: -500px;
+    left: 350px;
+  }
+  .case-study-child1 {
+    position: relative;
+    top: -400px;
+    left: 290px;
+    font-size: 20px;
+    font-family: orbitron;
+  }
+}
+@media screen and (min-width: 1194px) and (max-width: 1280px) and (orientation: landscape) {
+  .imagebg1 {
+    left: 120px;
+    top: -150px;
+    height: 850px;
+  }
+  .imagebg2 {
+    left: 200px;
+    height: 550px;
+    top: -200px;
+  }
+  .b {
+    font-size: 60px;
+    top: 990px;
+  }
+  .projects {
+    font-size: 50px;
+    left: 560px;
+    top: 400px;
+  }
+  .iza-apparels {
+    position: relative;
+    top: -640px;
+    left: 400px;
+  }
+  .case-study-child {
+    top: -550px;
+    left: 300px;
+    font-size: 20px;
+  }
+  .gelie-shrsta {
+    position: relative;
+    top: -550px;
+    left: 400px;
+  }
+  .case-study-child1 {
+    top: -450px;
+    left: 310px;
+    font-size: 25px;
+  }
+}
+/**/
+@media only screen and (min-width: 836px) and (max-width: 884px) and (orientation: portrait) {
+  .we-lead-organizations-container {
+    font-size: 55px;
+    margin-bottom: 10%;
+  }
+  .iza-apparels {
+    position: relative;
+    font-size: 30px;
+    top: -450px;
+    left: 300px;
+  }
+  .gelie-shrsta {
+    position: relative;
+    font-size: 30px;
+    top: -330px;
+    left: 300px;
+  }
+  .projects {
+    font-size: 35px;
+    left: 400px;
+    top: 250px;
+  }
+  .b {
+    font-size: 40px;
+    top: 700px;
+  }
+  .case-study-child {
+    font-size: 15px;
+    top: -380px;
+    left: 160px;
+  }
+  .case-study-child1 {
+    font-size: 15px;
+    top: -270px;
+    left: 210px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -100px;
+    height: 560px;
+    left: 100px;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    top: -100px;
+    height: 350px;
+    transform: rotate(27.88deg);
+    left: 150px;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 130vh;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1104px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 65px;
+  }
+  .imagebg1 {
+    left: 130px;
+    top: -150px;
+    height: 700px;
+  }
+  .imagebg2 {
+    left: 150px;
+    height: 450px;
+    top: -150px;
+  }
+  .b {
+    font-size: 60px;
+    top: 850px;
+  }
+  .projects {
+    font-size: 60px;
+    left: 500px;
+    top: 310px;
+  }
+  .iza-apparels {
+    position: relative;
+    top: -580px;
+    left: 400px;
+    font-size: 40px;
+  }
+  .case-study-child {
+    top: -500px;
+    left: 250px;
+    font-family: orbitron;
+  }
+  .gelie-shrsta {
+    position: relative;
+    top: -450px;
+    left: 290px;
+  }
+  .case-study-child1 {
+    top: -350px;
+    left: 250px;
+    font-family: orbitron;
+  }
+}
+@media only screen and (min-width: 1105px) and (max-width: 1115px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 65px;
+  }
+  .imagebg1 {
+    left: 130px;
+    top: -150px;
+    height: 700px;
+  }
+  .imagebg2 {
+    left: 150px;
+    height: 450px;
+    top: -150px;
+  }
+  .b {
+    font-size: 60px;
+    top: 850px;
+  }
+  .projects {
+    font-size: 60px;
+    left: 500px;
+    top: 310px;
+  }
+  .iza-apparels {
+    position: relative;
+    top: -580px;
+    left: 400px;
+    font-size: 40px;
+  }
+  .case-study-child {
+    top: -500px;
+    left: 250px;
+    font-family: orbitron;
+  }
+  .gelie-shrsta {
+    position: relative;
+    top: -450px;
+    left: 290px;
+  }
+  .case-study-child1 {
+    top: -350px;
+    left: 250px;
+    font-family: orbitron;
+  }
+}

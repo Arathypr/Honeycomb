@@ -1,0 +1,3497 @@
+.rectangle-circle {
+  width: 100%;
+  height: 150vh;
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+}
+.no-fuzz-no-container {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  font-family: betatron;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 6%;
+}
+.services-done-on {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+.custom-btn {
+  width: 200px;
+  height: 60px;
+  margin-right: 200px;
+  font-family: orbitron;
+}
+.main-button {
+  margin-top: 16.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.big-circle {
+  position: relative;
+  aspect-ratio: 1;
+  max-width: 800px;
+  border: solid 2px white;
+  border-radius: 50%;
+  /* margin-top: 8%; */
+}
+/*bigcircle*/
+.circle1 {
+  aspect-ratio: 1;
+  width: 23%;
+  border: solid 2px white;
+  border-radius: 50%;
+  top: 75%;
+  left: 52%;
+}
+.data1 {
+  position: relative;
+  color: white;
+  font-family: "poppins";
+  top: 50px;
+  left: 27px;
+}
+.circle2 {
+  aspect-ratio: 1;
+  width: 23%;
+  border: solid 2px white;
+  border-radius: 50%;
+  top: 76%;
+  left: 29%;
+}
+.data2 {
+  position: relative;
+  color: white;
+  font-family: "poppins";
+  top: 40px;
+  left: 27px;
+}
+.circle3 {
+  aspect-ratio: 1;
+  width: 23%;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 60%;
+  left: 12%;
+}
+.data3 {
+  position: relative;
+  color: #000;
+  font-family: "poppins";
+  top: 50px;
+  left: 28px;
+}
+.circle4 {
+  aspect-ratio: 1;
+  width: 23%;
+  border: solid 2px white;
+  border-radius: 50%;
+  top: 55%;
+  left: 40%;
+}
+.data4 {
+  position: relative;
+  color: white;
+  font-family: "poppins";
+  top: 50px;
+  left: 24px;
+}
+.circle5 {
+  aspect-ratio: 1;
+  width: 23%;
+  border: solid 2px white;
+  border-radius: 50%;
+  top: 60%;
+  left: 70%;
+}
+.data5 {
+  position: relative;
+  color: white;
+  font-family: "poppins";
+  top: 40px;
+  left: 25px;
+}
+.circle6 {
+  aspect-ratio: 1;
+  width: 23%;
+  border: solid 2px white;
+  border-radius: 50%;
+  top: 40%;
+  left: 58%;
+}
+.data6 {
+  position: relative;
+  color: white;
+  font-family: "poppins";
+  top: 50px;
+  left: 20px;
+}
+.circle7 {
+  aspect-ratio: 1;
+  width: 23%;
+  border: solid 2px white;
+  border-radius: 50%;
+  top: 40%;
+  left: 23%;
+}
+.data7 {
+  position: relative;
+  color: white;
+  font-family: "poppins";
+  top: 55px;
+  left: 20px;
+}
+.circle8 {
+  aspect-ratio: 1;
+  width: 23%;
+  border: solid 2px white;
+  border-radius: 50%;
+  top: 25%;
+  left: 41%;
+}
+.data8 {
+  position: relative;
+  color: white;
+  font-family: "poppins";
+  top: 35px;
+  left: 20px;
+}
+.circle9 {
+  aspect-ratio: 1;
+  width: 23%;
+  border: solid 2px white;
+  border-radius: 50%;
+  top: 40%;
+  left: 0%;
+}
+.data9 {
+  position: relative;
+  color: white;
+  font-family: "poppins";
+  top: 45px;
+  left: 20px;
+}
+.circle10 {
+  aspect-ratio: 1;
+  width: 23%;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 20%;
+  left: 11%;
+}
+.data10 {
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-family: "poppins";
+  top: 55px;
+  left: 20px;
+}
+/*animation*/
+
+/* ... your other styles ... */
+
+/* Define the keyframes for the animation */
+@keyframes fallDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to circles when the .animate class is added */
+/*.circle1,
+  .circle2,
+  .circle3,
+  .circle4,
+  .circle5,
+  .circle6,
+  .circle7,
+  .circle8,
+  .circle9,
+  .circle10 {
+    animation: fallDown 0.5s ease-in-out forwards;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }*/
+/* Add hover effect */
+
+/*.circle3:hover,
+  .circle4:hover,
+  .circle5:hover,
+  .circle6:hover,
+  .circle7:hover,
+  .circle8:hover,
+  .circle9:hover,
+  .circle10:hover {
+    transform: translateY(15px); 
+  }
+  
+  .circle1:hover,
+  .circle2:hover,
+  .circle9:hover,
+  .circle10:hover {
+    transform: translatex(5px); 
+  }*/
+
+/*phone*/
+@media screen and (min-width: 320px) and (max-width: 350px) and (orientation: portrait) {
+  .rectangle-circle {
+    height: 250vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 23px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    height: 100%;
+    margin-top: -950px !important;
+    margin-left: 8px;
+    margin-right: 0px;
+  }
+
+  .custom-btn {
+    font-size: 10px !important;
+    width: 7rem;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 300px;
+    margin-left: 0%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 376px) and (orientation: portrait) {
+  .rectangle-circle {
+    height: 170vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 23px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    height: 100%;
+    position: absolute;
+    margin-top: -950px !important;
+    margin-left: 5%;
+    margin-right: 0px;
+  }
+
+  .custom-btn {
+    font-size: 10px !important;
+    width: 8rem;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 300px;
+    margin-left: 5%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) and (orientation: portrait) {
+  .rectangle-circle {
+    height: 150vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 23px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    height: 100%;
+    position: absolute;
+    margin-top: -950px !important;
+    margin-left: 5%;
+    margin-right: 0px;
+  }
+
+  .custom-btn {
+    font-size: 10px !important;
+    width: 8rem;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 350px;
+    margin-left: 0%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+}
+/*phone landscape*/
+@media screen and (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 380vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 23px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    bottom: 60rem;
+    margin-left: 62%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 180px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 350px;
+    margin-left: 15%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 731px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 360vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 45px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 1%;
+    height: 40px;
+    position: relative;
+    bottom: 65rem;
+    margin-left: 68%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 300px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 450px;
+    margin-left: 7%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 780px) and (max-width: 855px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 400vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 45px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 1%;
+    height: 40px;
+    position: relative;
+    bottom: 0rem;
+    margin-left: 25%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 320px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 450px;
+    margin-left: 30%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+} /*
+  @media screen and (min-width: 781px) and (max-width: 781px) and (orientation: landscape) {
+    .rectangle-circle {
+      height: 350vh;
+      width: 100%;
+    }
+    .no-fuzz-no-container {
+      font-size: 5px;
+    }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .button-col {
+      width: 1%;
+      height: 40px;
+      position: relative;
+      bottom: 65rem;
+      margin-left: 70%;
+      font-family: orbitron;
+    }
+    .button-col > .d-flex {
+      display: flex;
+      justify-content: space-between;
+    }
+    .custom-btn {
+      width: 320px;
+    }
+    /*bigcircle
+    .big-circle {
+      margin-top: 40rem;
+      width: 450px;
+      margin-left: 7%;
+    }
+    .circle1 {
+      aspect-ratio: 1;
+      width: 23%;
+      border: solid 2px white;
+      border-radius: 50%;
+      top: 75%;
+      left: 52%;
+    }
+    .data1 {
+      position: relative;
+      color: white;
+      font-family: "poppins";
+      top: 20px;
+      left: 15px;
+      font-size: 8px;
+    }
+    .circle2 {
+      aspect-ratio: 1;
+      width: 23%;
+      border: solid 2px white;
+      border-radius: 50%;
+      top: 76%;
+      left: 29%;
+    }
+    .data2 {
+      position: relative;
+      color: white;
+      font-family: "poppins";
+      top: 18px;
+      left: 15px;
+      font-size: 8px;
+    }
+    .circle3 {
+      aspect-ratio: 1;
+      width: 23%;
+      background-color: #fff;
+      border-radius: 50%;
+      top: 60%;
+      left: 12%;
+    }
+    .data3 {
+      position: relative;
+      color: #000;
+      font-family: "poppins";
+      top: 23px;
+      left: 18px;
+      font-size: 8px;
+    }
+    .circle4 {
+      aspect-ratio: 1;
+      width: 23%;
+      border: solid 2px white;
+      border-radius: 50%;
+      top: 55%;
+      left: 40%;
+    }
+    .data4 {
+      position: relative;
+      color: white;
+      font-family: "poppins";
+      top: 20px;
+      left: 8px;
+      font-size: 8px;
+    }
+    .circle5 {
+      aspect-ratio: 1;
+      width: 23%;
+      border: solid 2px white;
+      border-radius: 50%;
+      top: 60%;
+      left: 70%;
+    }
+    .data5 {
+      position: relative;
+      color: white;
+      font-family: "poppins";
+      top: 20px;
+      left: 8px;
+      font-size: 7px;
+    }
+    .circle6 {
+      aspect-ratio: 1;
+      width: 23%;
+      border: solid 2px white;
+      border-radius: 50%;
+      top: 40%;
+      left: 58%;
+    }
+    .data6 {
+      position: relative;
+      color: white;
+      font-family: "poppins";
+      top: 25px;
+      left: 8px;
+      font-size: 7px;
+    }
+    .circle7 {
+      aspect-ratio: 1;
+      width: 23%;
+      border: solid 2px white;
+      border-radius: 50%;
+      top: 40%;
+      left: 23%;
+    }
+    .data7 {
+      position: relative;
+      color: white;
+      font-family: "poppins";
+      top: 23px;
+      left: 15px;
+      font-size: 8px;
+    }
+    .circle8 {
+      aspect-ratio: 1;
+      width: 23%;
+      border: solid 2px white;
+      border-radius: 50%;
+      top: 25%;
+      left: 41%;
+    }
+    .data8 {
+      position: relative;
+      color: white;
+      font-family: "poppins";
+      top: 16px;
+      left: 10px;
+      font-size: 7px;
+    }
+    .circle9 {
+      aspect-ratio: 1;
+      width: 23%;
+      border: solid 2px white;
+      border-radius: 50%;
+      top: 40%;
+      left: 0%;
+    }
+    .data9 {
+      position: relative;
+      color: white;
+      font-family: "poppins";
+      top: 22px;
+      left: 5px;
+      font-size: 8px;
+    }
+    .circle10 {
+      aspect-ratio: 1;
+      width: 23%;
+      background-color: #fff;
+      border-radius: 50%;
+      top: 20%;
+      left: 11%;
+    }
+    .data10 {
+      position: relative;
+      color: rgb(0, 0, 0);
+      font-family: "poppins";
+      top: 22px;
+      left: 15px;
+      font-size: 8px;
+    }
+  }*/
+@media only screen and (min-width: 880px) and (max-width: 950px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 380vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 45px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 1%;
+    height: 40px;
+    position: relative;
+    bottom: 5rem;
+    margin-left: 25%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 320px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 35rem;
+    width: 450px;
+    margin-left: 38%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 781px) and (max-width: 799px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 370vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 45px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 1%;
+    height: 40px;
+    position: relative;
+    bottom: 65rem;
+    margin-left: 70%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 300px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 450px;
+    margin-left: 5%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 731px) and (max-width: 779px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 370vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 45px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 1%;
+    height: 40px;
+    position: relative;
+    bottom: 65rem;
+    margin-left: 70%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 300px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 450px;
+    margin-left: 5%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 18px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 23px;
+    left: 18px;
+    font-size: 8px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 8px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 20px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 25px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 23px;
+    left: 15px;
+    font-size: 8px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 16px;
+    left: 10px;
+    font-size: 7px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 22px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 22px;
+    left: 15px;
+    font-size: 8px;
+  }
+}
+/*tab*/
+@media screen and (min-width: 600px) and (max-width: 768px) and (orientation: portrait) {
+  .rectangle-circle {
+    height: 170vh;
+    width: 100%;
+  }
+  .no-fuzz-no-container {
+    font-size: 55px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 5%;
+    height: 40px;
+    position: relative;
+    bottom: 0rem;
+    margin-left: 18%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 400px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 600px;
+    margin-left: 15%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 30px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 30px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 50px;
+    left: 40px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 25px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 25px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 20px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 40px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 35px;
+    left: 20px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 20px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 55px;
+    left: 40px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 835px) and (orientation: portrait) {
+  .rectangle-circle {
+    height: 150vh;
+  }
+  .no-fuzz-no-container {
+    font-size: 55px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 20%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 400px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 600px;
+    margin-left: 7%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 30px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 30px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 50px;
+    left: 40px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 25px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 25px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 20px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 40px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 35px;
+    left: 20px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 20px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 55px;
+    left: 40px;
+  }
+}
+/*tab landscape*/
+
+@media only screen and (width: 1024px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 240vh;
+  }
+  .no-fuzz-no-container {
+    font-size: 55px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 100%px;
+    height: 40px;
+    position: relative;
+    bottom: 2rem;
+    left: -30%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 500px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 700px;
+    margin-left: 24%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 30px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 30px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 50px;
+    left: 40px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 25px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 25px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 20px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 40px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 35px;
+    left: 20px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 20px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 55px;
+    left: 40px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 220vh;
+  }
+  .no-fuzz-no-container {
+    font-size: 55px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 18%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 500px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 650px;
+    margin-left: 33%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 30px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 30px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 50px;
+    left: 40px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 25px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 25px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 20px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 40px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 35px;
+    left: 20px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 20px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 55px;
+    left: 40px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1280px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 220vh;
+  }
+  .no-fuzz-no-container {
+    font-size: 55px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 15%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 500px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 650px;
+    margin-left: 50%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 30px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 30px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 50px;
+    left: 40px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 25px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 25px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 20px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 40px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 35px;
+    left: 20px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 20px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 55px;
+    left: 40px;
+  }
+}
+/**/
+@media only screen and (min-width: 836px) and (max-width: 884px) and (orientation: portrait) {
+  .rectangle-circle {
+    height: 150vh;
+  }
+  .no-fuzz-no-container {
+    font-size: 55px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 20%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 400px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 600px;
+    margin-left: 7%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 30px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 30px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 50px;
+    left: 40px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 25px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 25px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 20px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 40px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 35px;
+    left: 20px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 20px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 55px;
+    left: 40px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1104px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 220vh;
+  }
+  .no-fuzz-no-container {
+    font-size: 55px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 18%;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-btn {
+    width: 500px;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 40rem;
+    width: 650px;
+    margin-left: 33%;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 30px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 30px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 50px;
+    left: 40px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 25px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 25px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 20px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 40px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 35px;
+    left: 20px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 20px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 55px;
+    left: 40px;
+  }
+}
+@media only screen and (min-width: 1105px) and (max-width: 1115px) and (orientation: landscape) {
+  .rectangle-circle {
+    height: 250vh;
+  }
+}

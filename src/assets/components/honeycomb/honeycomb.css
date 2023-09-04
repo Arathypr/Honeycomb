@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.hexagon {
+  position: relative;
+  top: 0px;
+  width: 150px;
+  height: 180px;
+  background: rgb(0, 0, 0, 0.6);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  margin: 0.9px;
+}
+.row {
+  display: inline-flex;
+  margin-top: -55px;
+  margin-left: -75px;
+  margin-bottom: 9px;
+  transform: translate(-1%, -850px);
+}
+.row:nth-child(even) {
+  margin-left: 0px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("C:\Users\arath\honeycomb\src\assets\images\landing page.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.background-image::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+/* animation.css */
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hexagon.appear {
+  animation: appear 0.5s ease forwards;
+}
+
+/* .hexagon {
+  width: 190px;
+  height: 110px;
+  background: #000;
+  position: relative;
+  top: 0px;
+  transform: translate(-50%, -50%);
+}
+.hexagon::before,
+.hexagon:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: absolute;
+}
+.hexagon:before {
+  transform: rotate(60deg);
+}
+.hexagon::after {
+  transform: rotate(-60deg);
+}
+.hexagon,
+.hexagon::before,
+.hexagon:after {
+  background: transparent;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+} */

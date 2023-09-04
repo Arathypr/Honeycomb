@@ -1,0 +1,23 @@
+.rectangle-div {
+  background: linear-gradient(112.72deg, #2e335a, #1c1b33);
+  height: 100vh;
+  width: 100%;
+}
+#segment1 {
+  position: relative;
+  left: 35%;
+  top: -2rem;
+  margin-top: 10%;
+}
+#segment2 {
+  position: relative;
+  left: 28%;
+  top: -0.15rem;
+  width: 25%;
+}
+#segment3 {
+  position: relative;
+  left: 0.5%;
+  top: -17rem;
+  width: 25%;
+}
